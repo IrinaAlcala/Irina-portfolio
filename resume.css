@@ -148,11 +148,11 @@
     padding-left: 0;
   }
   
-  .experience__details {
+  /* .experience__details {
     list-style: square url('../img/icons8-unchecked-checkbox-10.png');
-  }
+  } */
   
-  .experience__details__volunteerism {
+  /* .experience__details__volunteerism {
     list-style: none;
   }
   
@@ -170,7 +170,7 @@
   .interests li {
     border: 2px solid lightgrey;
   }
-  
+   */
   .interests li, .skills li {
     border-radius: 5px;
     display: inline-block;
