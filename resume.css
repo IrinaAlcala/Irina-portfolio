@@ -1,7 +1,7 @@
 /* Document styles */
 :root {
-    --primary: salmon;
-    --accent: lightsalmon;
+    --primary: indianred;
+    --accent: #303030;
   }
   
   * {
@@ -88,7 +88,7 @@
   
   /* headings */
   .bio-overview__title, .experience__heading {
-    color: var(--primary);
+    color: var(--accent);
     text-transform: uppercase;
   }
   
@@ -98,7 +98,7 @@
   }
   
   .experience__date, .experience__location, .experience__date-education {
-    color: var(--primary);
+    color: var(--accent);
     font-style: italic;
     font-weight: 400;
     margin-top: 5px;
@@ -148,29 +148,7 @@
     padding-left: 0;
   }
   
-  /* .experience__details {
-    list-style: square url('../img/icons8-unchecked-checkbox-10.png');
-  } */
   
-  /* .experience__details__volunteerism {
-    list-style: none;
-  }
-  
-  .experience__details__volunteerism li {
-    margin-bottom: 15px;
-  }
-  
-  .experience__details__volunteerism-highlight {
-    color: #8E8E8E;
-    font-style: italic;
-    line-height: 1.2;
-    margin-top: 0;
-  }
-  
-  .interests li {
-    border: 2px solid lightgrey;
-  }
-   */
   .interests li, .skills li {
     border-radius: 5px;
     display: inline-block;
