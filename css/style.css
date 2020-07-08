@@ -422,7 +422,9 @@ ul {
     background-color: lightslategray;
     color: var(--clr-dark);
     text-align: center; 
-    justify-self: center;   
+    justify-self: center; 
+    display: flex;
+    flex-direction: column;  
 }
 
 .portfolio {
@@ -440,8 +442,10 @@ ul {
     justify-self: center;
     align-self: center;
     align-items: center;
-    width: 450px;
+    width: 650px;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
     
 }
 
